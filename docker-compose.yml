@@ -3,7 +3,7 @@ version: '3.8'
 services:
   app:
     image: cadastro-app:latest  # Nome da imagem do aplicativo Spring Boot
-    container_name: cadastro-app
+    container_name: cadastroapp
     build:
       context: .
       dockerfile: Dockerfile
